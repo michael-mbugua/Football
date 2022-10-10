@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.navBar{
+    width: 100%;
+    height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tabs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0;
+}
+.tabs-leagues{
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: black;
+    color: white;
+    height: 50px;
+    border-right: 5px solid #cccc;
+}
+.tabs-standings{
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: black;
+    color: white;
+    height: 50px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+    width: 100%;
+    height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
