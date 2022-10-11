@@ -16,7 +16,7 @@
 
 .content-container{
     width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +49,37 @@
     height: 50px;
     
 }
-
+.leagues-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    text-align: center;
+}
+.league-div img{
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+}
+.league-div:hover{
+    transform: scale(1.1);
+}
+.league-div{
+    padding: 10px;
+    font-size: medium;
+}
+select{
+    padding: 10px 15px;
+    border-radius: 1vh;
+    margin: 10px;
+}
+option{
+    margin: 10px;
+}
+.select-container{
+    display: flex;
+    flex-direction: row;
+}
 .footer{
     width: 100%;
     height: 10vh;
